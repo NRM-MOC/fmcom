@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+*.Rcheck/
+*.tar.gz
+
+# Raw source file is large (186MB) -- keep it outside the repo, e.g. on a
+# shared drive, and reference its location in data-raw/prepare_data.R.
+# Only the processed data/fmcom.rda (compressed, ~3MB) is committed.
+data-raw/fmcom_raw.csv
