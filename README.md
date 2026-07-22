@@ -1,11 +1,13 @@
 # fmcom
 
 `fmcom` is an R data package containing the Freshwater and Marine Contaminant
-Monitoring (FMCoM) dataset, run by the Swedish Museum of Natural History and
-funded by the Swedish Environmental Protection Agency.
+Monitoring dataset, run by the Swedish Museum of Natural History. The program 
+was historically funded by the Swedish Environmental Protection Agency and is 
+currently funded by the Swedish Agency for Marine and Water Management.
 
 This package builds on the earlier [`mcomDb`](https://github.com/NRM-MOC/mcomDb)
-package (marine contaminants only). This version:
+package (marine contaminants only), which also included intercalibration files 
+for instances when laboratories where changed. This version:
 
 - Adds freshwater contaminant monitoring data alongside the marine data
 - Introduces a `water_type` column (`"Marine"` / `"Freshwater"`)
@@ -15,13 +17,13 @@ package (marine contaminants only). This version:
 The dataset contains 366,600 contaminant measurements: 114 contaminants
 across 8 substance groups (metals, PFAS, PCBs, dioxins/furans, pesticides
 and solvents, BFRs, PAH, organotin compounds), 11 species (fish, bivalve,
-bird), 59 stations, spanning 1967-2023.
+bird egg), 59 stations, spanning 1967-2023.
 
 ## Installation
 
 ```r
 # install.packages("devtools")
-devtools::install_github("YOUR-ORG/fmcom")
+devtools::install_github("https://github.com/NRM-MOC/fmcom")
 ```
 
 ## Usage
@@ -44,17 +46,22 @@ wide <- fmcom_long_to_wide(fmcom)
 See `data-raw/prepare_data.R` for how the shipped `.rda` was built from the
 raw delivered file, and `?fmcom` for full column documentation.
 
-> Note: earlier drafts of this package also planned laboratory
-> intercalibration tables (metals, PFAS, BFR, chlorinated compounds). Those
-> weren't part of the delivered `fmcom.csv` -- add a section here (and a
-> corresponding `data-raw` step) if/when that data is available.
-
 ## Citation
 
 If you use this dataset, please cite:
+Soerensen, A.L. & Faxneld, S. (2026). fmcom: Freshwater and Marine
+Contaminant Monitoring Dataset. R package. <https://github.com/NRM-MOC/fmcom>
 
-> [Add citation here once available -- e.g. an updated data descriptor
-> analogous to Ammar et al. (2024), Scientific Data]
+For background information and basic structure, and marine data:
+Ammar, Y., S. Faxneld, M. Sköld, A.L. Soerensen (2024), Long term dataset 
+for contaminants in fish, mussels, and bird eggs from the Baltic Sea, 
+Scientific Data, 11 (1), doi: 10.1038/s41597-024-03216-0
+
+For freshwater data:
+Faxneld, S., A.L. Soerensen (2026), Graphic and statistical overview of 
+temporal trends and spatial variations in the Swedish National Monitoring 
+Programme for Contaminants in Freshwater Biota (including data through 2024). 
+Swedish Museum of Natural History, Stockholm, Sweden
 
 ## License
 
