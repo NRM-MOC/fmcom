@@ -5,7 +5,7 @@
 \alias{fmcom}
 \title{Freshwater and Marine Contaminant Monitoring dataset (FMCoM)}
 \format{
-A data frame with 366,600 rows and 45 variables:
+A data frame with 374,154 rows and 45 variables:
 \describe{
   \item{specimen_ID}{Identifier for the specimen(s) a sample was taken from}
   \item{year}{Sampling year}
@@ -81,7 +81,7 @@ monitoring data. One row is one contaminant measurement for one sample
 laboratory/method).
 }
 \details{
-366,600 measurements; 114 contaminants across 8 substance groups; 11
-species (fish, bivalve, bird); 59 stations; years 1967-2023.
+374,705 measurements; 114 contaminants across 8 substance groups; 11
+species (fish, bivalve, bird); 59 stations; years 1967-2024.
 }
 \keyword{datasets}

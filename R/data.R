@@ -7,10 +7,10 @@
 #' (a pooled or individual specimen, in a given organ, analysed by a given
 #' laboratory/method).
 #'
-#' 366,600 measurements; 114 contaminants across 8 substance groups; 11
-#' species (fish, bivalve, bird); 59 stations; years 1967-2023.
+#' 374,705 measurements; 114 contaminants across 8 substance groups; 11
+#' species (fish, bivalve, bird); 59 stations; years 1967-2024.
 #'
-#' @format A data frame with 366,600 rows and 45 variables:
+#' @format A data frame with 374,154 rows and 45 variables:
 #' \describe{
 #'   \item{specimen_ID}{Identifier for the specimen(s) a sample was taken from}
 #'   \item{year}{Sampling year}
