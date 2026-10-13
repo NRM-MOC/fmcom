@@ -1,0 +1,60 @@
+nrm_code,station_code_SGU,station,station_name,latitude,longitude,water_type,collected,basin,ICES_station,HELCOM_basin,ICES_basin
+ABIS,103643,Abiskojaure,Abiskojaure,68.30583,18.65249,Freshwater,A,,,,
+ALLG,103670,Allgjuttern,Allgjuttern,57.94794,16.09632,Freshwater,P,,,,
+BOLM,103839,Bolmen,Bolmen,56.9674,13.76807,Freshwater,Pi,,,,
+BRAN,103903,Brännträsket,Branntrasket,65.52625,21.41693,Freshwater,P,,,,
+BYSJ,103941,Bysjön,Bysjon,59.30237,12.33991,Freshwater,P,,,,
+BAST,103967,Bästeträsk,Bastetrask,57.91564,18.936,Freshwater,P,,,,
+DEGE,103998,Degervattnet,Degervattnet,63.87284,16.22934,Freshwater,P,,,,
+FIOL,104080,Fiolen,Fiolen,57.09199,14.52957,Freshwater,P,,,,
+FRAC,104126,Fräcksjön,Fracksjon,58.14815,12.18118,Freshwater,P,,,,
+FYSI,104143,Fysingen,Fysingen,59.57066,17.9081,Freshwater,P,,,,
+GIPS,104190,Gipsjön,Gipsjon,60.64504,13.62646,Freshwater,P,,,,
+HJAR,104457,Hjärtsjön,Hjartsjon,57.05149,15.25734,Freshwater,P,,,,
+HORS,104492,Horsan,Horsan,57.86881,18.8409,Freshwater,P,,,,
+KRAG,104725,Krageholmssjön,Krageholmssjon,55.4963,13.76197,Freshwater,P,,,,
+KRAN,104727,Krankesjön,Krankesjon,55.70498,13.45006,Freshwater,P,,,,
+LORE,104886,Lilla Öresjön,Lilla Oresjon,57.55727,12.33679,Freshwater,P,,,,
+LIMM,133966,Limmingsjön T06,Limmingsjon,59.58616,14.5204,Freshwater,P,,,,
+REMM,105464,Remmarsjön,Remmarsjon,63.86204,18.27264,Freshwater,P,,,,
+SKAR,105667,Skärgölen,Skargolen,57.77927,15.58216,Freshwater,P,,,,
+SPJU,105722,Spjutsjön,Spjutsjon,60.63879,15.44528,Freshwater,P,,,,
+SENV,105810,Stora Envättern,Stora Envattern,59.11495,17.3535,Freshwater,P,,,,
+STEN,105779,Stensjön,Stensjon,61.64275,16.57529,Freshwater,P,,,,
+STSK,105867,Stora Skärsjön,Stora Skarsjon,56.6715,13.06533,Freshwater,P,,,,
+STBA,105891,Stor-Backsjön,Stor-Backsjon,62.67503,14.51348,Freshwater,P,,,,
+STBJ,105896,Stor-Björsjön,Stor-Bjorsjon,63.61114,12.23319,Freshwater,A,,,,
+STVI,105985,Storvindeln,Storvindeln,65.70179,17.12858,Freshwater,Pi,,,,
+SVAR,106042,Svartsjön,Svartsjon,58.75733,14.2223,Freshwater,P,,,,
+SANN,106089,Sännen,Sannen,56.32502,15.35816,Freshwater,P,,,,
+TJUL,105971,Stor-Tjulträsket,Stor-Tjultrasket,65.96191,16.06788,Freshwater,A,,,,
+TARN,106258,Tärnan,Tarnan,59.55703,18.36601,Freshwater,P,,,,
+ALGS,106587,Älgsjön,Algsjon,59.09494,16.36938,Freshwater,P,,,,
+OVSK,106738,Övre Skärsjön,Ovre Skarsjon,59.83708,15.55028,Freshwater,P,,,,
+TJRN,106192,Tjärnö,Tjarno,58.89277678,11.03333,Marine,TO,West Coast,6118,_,27.3.a.20
+FJBA,104083,Fjällbacka,Fjallbacka,58.63299,11.26145425,Marine,E M,West Coast,5747,_,27.3.a.20
+VADO,106422,Väderöarna,Vaderoarna,58.51556,10.96441765,Marine,H,West Coast,6141,_,27.3.a.20
+NIDI,105249,Nidingen,Nidingen,57.30243,11.9054,Marine,M,West Coast,5955,Kattegat,27.3.a.21
+FLAD,104094,Fladen,Fladen,57.22471,11.82798,Marine,H C,West Coast,6299,Kattegat,27.3.a.21
+KULL,104749,Kullen,Kullen,56.32508942,12.3810633,Marine,H,West Coast,5834,Kattegat,27.3.a.21
+ABBE,103640,Abbekås,Abbekas,55.31625144,13.61104269,Marine,H,Southern Baltic Proper,6212,Arkona Basin,27.3.d.24
+HABU,106486,W Hanöbukten,Western Hanobukten,55.75069,14.2833,Marine,H,Southern Baltic Proper,6152,Bornholm Basin,27.3.d.25
+40G7,159259,E Bornholm basin (offsh.),"Eastern Bornholm Basin, offshore",55.75001,17.5000008,Marine,H,Southern Baltic Proper,11193,Bornholm Basin,27.3.d.25
+UTL,106288,Utlängan,Utlangan,55.94906,15.78097,Marine,H,Southern Baltic Proper,6140,Bornholm Basin,27.3.d.25
+SEGO,104214,SE Gotland,South Eastern Gotland,56.88548,18.6424,Marine,C,Southern Baltic Proper,5779,Eastern Gotland Basin,27.3.d.28.2
+STKA,105831,Stora Karlsö,Stora Karlso,57.28325,17.97413,Marine,G,Southern Baltic Proper,6099,Western Gotland Basin,27.3.d.27
+BYXE,103946,Byxelkrok,Byxelkrok,57.31666,17.49999,Marine,H,Southern Baltic Proper,6285,Western Gotland Basin,27.3.d.27
+KVFJ,104770,Kvädöfjärden,Kvadofjarden,58.03364178,16.76495,Marine,P E M,Northern Baltic Proper,5835,Western Gotland Basin,27.3.d.27
+LAND,104823,Landsort,Landsort,58.69363526,18.00425496,Marine,H,Northern Baltic Proper,5841,Western Gotland Basin,27.3.d.27
+46H0,159253,N Baltic Proper (offsh.),"Northern Baltic Proper, offshore",58.74999834,20.5,Marine,H,Northern Baltic Proper,11189,Northern Baltic Proper,27.3.d.29
+LAGN,104816,Lagnö,Lagno,59.56516,18.83474,Marine,H,Northern Baltic Proper,5839,Northern Baltic Proper,27.3.d.27
+49G9,159257,Sea of Åland (offsh.),"Aland Sea, offshore",60.24999974,19.34999,Marine,H,Bothnian Sea,11191,Aland Sea,27.3.d.29
+ANG,106619,Ängskärsklubb,Angskarsklubb,60.53260784,18.16242733,Marine,H,Bothnian Sea,6226,Bothnian Sea,27.3.d.30
+51G9,159252,Bothnian Sea (offsh.),"Bothnian Sea, offshore",61.24999883,19.50000793,Marine,H,Bothnian Sea,11188,Bothnian Sea,27.3.d.30
+LAFJ,105053,Långvindsfjärden,Langvindsfjarden,61.46316,17.13677,Marine,H,Bothnian Sea,5844,Bothnian Sea,27.3.d.30
+GAFJ,104178,Gaviksfjärden,Gaviksfjarden,62.86452,18.24122,Marine,H,Bothnian Sea,5758,Bothnian Sea,27.3.d.30
+ORFJ,106660,Örefjärden,Orefjarden,63.50211,19.82296,Marine,P,Bothnian Sea,5965,The Quark,27.3.d.30
+HOLM,104480,Holmöarna,Holmoarna,63.68082,20.87675806,Marine,H P,Bothnian Sea,5809,The Quark,27.3.d.31
+KIFJ,104691,Kinnbäcksfjärden,Kinnbacksfjarden,65.05683,21.475,Marine,H,Bothnian Bay,5830,Bothnian Bay,27.3.d.31
+HAFJ,104398,Harufjärden,Harufjarden,65.58247415,22.87908991,Marine,H,Bothnian Bay,5803,Bothnian Bay,27.3.d.31
+RAFJ,105517,Rånefjärden,Ranefjarden,65.7555473,22.418143,Marine,H,Bothnian Bay,6016,Bothnian Bay,27.3.d.31

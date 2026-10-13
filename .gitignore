@@ -5,8 +5,15 @@
 .DS_Store
 *.Rcheck/
 *.tar.gz
+fix-email.sh
 
 # Raw source file is large (186MB) -- keep it outside the repo, e.g. on a
 # shared drive, and reference its location in data-raw/prepare_data.R.
 # Only the processed data/fmcom.rda (compressed, ~3MB) is committed.
-data-raw/fmcom_raw.csv
+# data-raw/fmcom_raw.csv
+
+data-raw/adding_other_updates_fmcom.R
+data-raw/files_used_for_corrections/
+
+# Large data products: build outputs of the pipeline, not committed
+data-raw/database*/

@@ -1,41 +1,38 @@
 # data-raw/prepare_data.R
 #
-# Builds data/fmcom.rda from the raw delivered file data-raw/fmcom_raw.csv.
+# Builds data/fmcom.rda, the dataset shipped with the package, from the
+# updated master file data-raw/database<year>/fmcom.rds (the output of the
+# pipeline scripts in this folder).
 # Not run at install time -- documents/reproduces how the shipped dataset
 # was produced. Re-run (source this file from the package root) whenever
-# fmcom_raw.csv is updated.
+# the master .rds is updated.
 #
-# NOTE: fmcom_raw.csv (~186MB) is in .gitignore and NOT committed to the
-# repo -- too large for GitHub. Place your copy of it in data-raw/ locally
-# before running this script (e.g. copy from your shared drive / data
-# archive). Only the processed, compressed data/fmcom.rda (~3MB) is
-# committed and ships with the package.
+# NOTE: the master .rds (and the .csv written alongside it) are in .gitignore
+# and NOT committed to the repo -- too large for GitHub. Place your copy of
+# the file in data-raw/database<year>/ locally before running this script
+# (see data-raw/README.md for where to get the previous version). Only the
+# processed, compressed data/fmcom.rda (~3MB) is committed and ships with
+# the package.
 #
-# Only base R is used here (no CRAN packages needed) since the file is a
-# semicolon-delimited, comma-decimal export -- read.csv2() handles that
-# natively.
-#
-# NOTE: the raw file contains non-ASCII characters, and some systems (esp.
-# Linux servers/containers) default to a "C" locale that mis-parses UTF-8
-# multi-byte sequences, causing rows to silently drop. If you see far fewer
-# rows than expected, set a UTF-8 locale first, e.g. from the shell:
-#   LC_ALL=C.utf8 Rscript data-raw/prepare_data.R
-# or from within R: Sys.setlocale("LC_ALL", "C.utf8") / "en_US.UTF-8"
+# The .rds keeps the original column types, so the type cleanup below
+# only applies the final package types (Date, logical, factors).
 
-raw <- read.csv2(
-  "data-raw/fmcom_raw.csv",
-  fileEncoding   = "UTF-8",
-  stringsAsFactors = FALSE,
-  na.strings     = c("NA", "")
-)
 
-fmcom <- raw
+# Read the master .rds (from the pipeline output) and store as fmcom
+# Change folder name for appropriate year (e.g., database2025) when re-running 
+# this script for a new release
+fmcom <- readRDS("data-raw/database2024/fmcom.rds")
 
 # ---- Type cleanup -----------------------------------------------------
 
 fmcom$date        <- as.Date(fmcom$date)
 fmcom$is_censored <- as.logical(fmcom$is_censored)
 fmcom$suspected_outlier <- as.logical(fmcom$suspected_outlier)
+
+# stop if more than 72 specimen_id (13198 data points) have no valid date (incomplete in source)
+n_na_date <- sum(is.na(fmcom$date))
+message(n_na_date, " records have no valid date (incomplete in source)")
+stopifnot(n_na_date == 13198)   # update when the source dates are fixed
 
 # water_type / class / substance_group / season / sex / organ / LOQ_LOD /
 # unit are small, fixed-vocabulary fields -- store as factors

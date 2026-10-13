@@ -14,10 +14,10 @@ for instances when laboratories where changed. This version:
 - Includes structural updates and new columns -- see `?fmcom` for the full
   field list
 
-The dataset contains 366,600 contaminant measurements: 114 contaminants
+The dataset contains 374,154 contaminant measurements: 114 contaminants
 across 8 substance groups (metals, PFAS, PCBs, dioxins/furans, pesticides
 and solvents, BFRs, PAH, organotin compounds), 11 species (fish, bivalve,
-bird egg), 59 stations, spanning 1967-2023.
+bird egg), 59 stations, spanning 1967-2024.
 
 ## Installation
 
@@ -45,6 +45,9 @@ wide <- fmcom_long_to_wide(fmcom)
 
 See `data-raw/prepare_data.R` for how the shipped `.rda` was built from the
 raw delivered file, and `?fmcom` for full column documentation.
+
+The code used to update the dataset each year is available in 
+[`data-raw/`](data-raw/) (see its README for instructions).
 
 ## Citation
 
