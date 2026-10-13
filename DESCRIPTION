@@ -12,7 +12,7 @@ Description: This package contains the freshwater and marine contaminant
     with the Swedish
     freshwater contaminant monitoring data. It also includes helper
     functions for reshaping the dataset (e.g. long to wide format).
-License: CC BY 4.0 + file LICENSE
+License: CC BY 4.0
 URL: https://github.com/NRM-MOC/fmcom
 BugReports: https://github.com/NRM-MOC/fmcom/issues
 Encoding: UTF-8
