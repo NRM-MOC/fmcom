@@ -1,8 +1,16 @@
 # Data pipeline
 
-Scripts that build the `fmcom` dataset from the previous release plus newly
-downloaded SGU data originating from the Swedish Museum of Natural History. 
-Run them from the package root (open `fmcom.Rproj`).
+Scripts that extend the previous release of the `fmcom` dataset with a new
+year of observations.
+
+The observations originate from the Swedish national monitoring programmes for
+contaminants in freshwater and marine biota, run by the Swedish Museum of
+Natural History. Each year, the museum submits the most recent year's data to
+the national contaminant database hosted by the Geological Survey of Sweden
+(SGU), which holds all national biota contaminant data. This pipeline extracts
+the data back from SGU and appends it to the `fmcom` dataset. 
+
+Run the pipeline from the package root (open `fmcom.Rproj`).
 
 ## Steps
 
