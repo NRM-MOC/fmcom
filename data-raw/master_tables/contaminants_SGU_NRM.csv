@@ -107,7 +107,7 @@ BFOSA,PFAS,"Perfluorooctane sulfonamide, branched",FOSA-branched,-,CH07/565,"Per
 FOSA,PFAS,Perfluorooctane sulfonamide,FOSA-isomer mix; mix of isomers (linear + branched),-,CH07/677,"Perfluoroktansulfonamid (FOSA), isomermix (linjär + grenad)",FOSA
 x62FTS,PFAS,Fluorotelomer 6:2 sulfonate,6:2 FTS,425670-75-3; 27619-97-2,CH07/646,Fluortelomer 6:2-sulfonsyra (6:2 FTSA),
 HFPODA,PFAS,"2,3,3,3-Tetrafluoro-2-(1,1,2,2,3,3,3-heptafluoropropoxy)propanoic acid; 2,3,3,3-Tetrafluoro-2-(heptafluoropropoxy)propanoic acid; Hexafluoropropylene oxide dimer acid (HFPO-DA); GenX; FRD-903; Perfluoro-2-propoxypropanoic acid",GenX; Hexafluorpropylenoxiddimersyra (HFPO-DA/FRD-903),13252-13-6,CH07/895,Hexafluorpropylenoxiddimersyra (HFPO-DA/FRD-903),HFPO-DA
-NADONA,PFAS,"Dodecafluoro-3H-4,8-dioxanonanoic acid; DONA; ADONA; 4,8-Dioxa-3H-perfluorononanoic acid","DONA, ADONA",919005-14-4,CH07/814,"Dodekafluor-3H-4,8-dioxanonansyra",NADONA 
+NADONA,PFAS,"Dodecafluoro-3H-4,8-dioxanonanoic acid; DONA; ADONA; 4,8-Dioxa-3H-perfluorononanoic acid","DONA, ADONA",919005-14-4,CH07/814,"Dodekafluor-3H-4,8-dioxanonansyra",NADONA
 PFPRS,PFAS,Perfluoropropanesulfonic acid; Heptafluoropropanesulfonic acid; PFPrS,PFPrS,423-41-6,CH07/931,Perfluorpropansulfonsyra (PFPrS),PFPRS
 PFUNDS,PFAS,"Perfluoroundecanesulfonic acid, linear; PFUnDS-linear",PFUnDS-linear,749786-16-1,CH07/808,"Perfluorundekansulfonsyra (PFUnDS), linjär",PFUNDS
 PFDODS,PFAS,"Perfluorododecanesulfonic acid, linear; PFDoDS-linear",PFDoDS-linear,79780-39-5,CH07/774,"Perfluordodekansulfonsyra (PFDoDS), linjär",PFDODS
